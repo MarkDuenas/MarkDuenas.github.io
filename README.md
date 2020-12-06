@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+# Reading Notes
 
-You can use the [editor on GitHub](https://github.com/MarkDuenas/MarkDuenas.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Code 301 Intermediate Software Development
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Responsive Web Design and Floats (SMACCS Pre-work)
+Source: [RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/).
 
-```markdown
-Syntax highlighted code block
+**RWD Overview**
 
-# Header 1
-## Header 2
-### Header 3
+- Responsive web design is the practice of building a website suitable to work on every device.
 
-- Bulleted
-- List
+**Responsive vs. Adaptive vs. Mobile**
 
-1. Numbered
-2. List
+- Responsive generally means to react quickly to any change.
+- Adaptive means to be easily modified for a new purpose or situation.
+- Mobile generally means to build a seperate website commonly on a new domain soley for mobile users.
 
-**Bold** and _Italic_ and `Code` text
+*Most popular technique lies within responsive web design*
 
-[Link](url) and ![Image](src)
+Responsive web design is broken down into three main components, including flexible layouts, media queries, and flexible media.
+
+**Flexible Layouts**
+
+- The practice of building the layout of a website with a flexible grid, capable of dynamically resizing to any width.
+- Built using relative length units (percentages or em units).
+- Does not use fixed measurement units (pixels or inches). Fixed values have too many constraints.
+- Formula for relative width of target element 
+  - `target ÷ context = result`
+
+*Flexible Grid*
+
+Without using the flexible grid formula:
+
+HTML
+```
+<div class="container">
+  <section>...</section>
+  <aside>...</aside>
+</div>
+```
+CSS
+```
+.container {
+  width: 538px;
+}
+section,
+aside {
+  margin: 10px;
+}
+section {
+  float: left;
+  width: 340px;
+}
+aside {
+  float: right;
+  width: 158px;
+}
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Using the flexible grid formula:
 
-### Jekyll Themes
+```
+section,
+aside {
+  margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
+}
+section {
+  float: left;
+  width: 63.197026%;    /* 340px ÷ 538px = .63197026 */   
+}
+aside {
+  float: right;
+  width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
+}
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarkDuenas/MarkDuenas.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
