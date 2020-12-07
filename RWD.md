@@ -1,4 +1,4 @@
-### Responsive Web Design and Floats (SMACCS Pre-work)
+### Responsive Web Design
 Source: [RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/).
 
 **RWD Overview**
