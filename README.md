@@ -84,20 +84,25 @@ Provide the ability to speciafy different styles for individual browser and devi
 
 - Can be used in multiple ways
   1. @media inside an existing style sheet.
-  ```
-  <!-- Separate CSS File -->
-  <link href="styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
-  ```
+  
+```
+ <!-- Separate CSS File -->
+ <link href="styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
+```
+
   2. @import a new style sheet.
-  ```
-  /* @import Rule */
-  @import url(styles.css) all and (max-width: 1024px) {...}
-  ```
+
+```
+/* @import Rule */
+@import url(styles.css) all and (max-width: 1024px) {...}
+```
+
   3. linking to a seperate style sheet from within HTML document.
-  ```
-  /* @media Rule */
-  @media all and (max-width: 1024px) {...}
-  ```
+  
+```
+/* @media Rule */
+@media all and (max-width: 1024px) {...}
+```
 
 *Logical Operators in Media Queries*
 
@@ -147,11 +152,13 @@ Apple invented viewport meta tag to help mobile devices identify the viewport si
 *Viewport Height and Width*
 
 For the best results, and the best looking website, it is recommend that you use the device defaults by applying the device-height and device-width values.
+
 `<meta name="viewport" content="width=device-width">`
 
 *CSS Viewport Rule*
 > Since the viewport meta tag revolves so heavily around setting the styles of how a website should be rendered it has been recommend to move the viewport from a meta tag with HTML to an @ rule within CSS. This helps keep the style separated from content, providing a more semantic approach.
 Currently some browsers have already implemented the @viewport rule, however support isn’t great across the board. The previously recommended viewport meta tag would look like the following @viewport rule in CSS.
+
 ```
 @viewport {
   width: device-width;
