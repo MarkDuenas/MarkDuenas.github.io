@@ -82,8 +82,8 @@ Provide the ability to speciafy different styles for individual browser and devi
 
 *Initializing Media Queries*
 
-- Can be used in multiple ways
-  1. @media inside an existing style sheet.
+- Can be used in multiple ways 
+ 1. @media inside an existing style sheet.
   
 ```
  <!-- Separate CSS File -->
