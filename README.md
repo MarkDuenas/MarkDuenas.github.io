@@ -2,7 +2,7 @@
 
 
 ## Code 301 Intermediate Software Development
-
+[All About Floats](./floats.md)
 
 ### Responsive Web Design and Floats (SMACCS Pre-work)
 Source: [RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/).
