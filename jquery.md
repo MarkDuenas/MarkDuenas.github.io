@@ -95,7 +95,41 @@ All methods used as setters(updates element)
 
 jQuery uses `.each()` method to loop through a selection of elements.
 
+```
+$('li').each(function() {
+  var ids = this.id;
+  $(this).append('<em class='order'> + ids i '</em>');
+});
+```
+`.each()` applies the same code to each element in the selection.
 
-    
+### Event Methods
+
+The `.on()` method is used to handdle all events.
+
+`.on()` method takes two parameters, first parameter is the event and the second is the code you want to execute once the event has been met.
+
+Example:
+
+```
+$('li').on('click', function() {
+  $(this).addClass('complete');
+});
+```
+
+### Event Object
+
+Every event handling function receives an event object.
+
+```
+$('li').on('click', function(event) {
+  eventType = event.type;
+});
+```
+
+***event*** is the event object parameter give a anem of *event*.
+
+
+
     
 
