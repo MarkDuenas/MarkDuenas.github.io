@@ -40,5 +40,62 @@ Allows you to find elements using CSS-style selectors and then use jQuery method
 `.text()`
   - will return content(text only, without html) from *every* element in the jQuery selector, along the text from any decendants.
   
-### Getting at Content
+### Updating Elements
+
+All methods used as setters(updates element)
+
+`.html()`
+  - gives every element retrieved the same content, can include HTML tags.
+  
+`.text()`
+  - gives every element same new text content, markup will be shown as text.
+  
+`.replaceWith()`
+  - replace every element with new content, also returns replaced elements.
+  
+`.remove()`
+  - removes all of the elements in the matching set.
+
+*.html(), .text(), .replaceWith() can take strings as parameters*
+
+### Inserting Elements
+
+  1. Create new elements in jQuery.
+    - `var $newFragment = $('li');` this creates a jQuery object that contain an empty `<li>` element.
+    - Can also do `var $newItem = $('<li class="new"> item </li>');`
+  
+  2. Adding new elements to page.
+    - `.before()` and `.after()` inserts content before/after elected elements(s).
+    - `.prepend()` and `.append()` inserts content ***inside*** the selected elements(s) after opening tag/before closing tag respectively.
+    
+  
+
+### Getting and Setting Attribute Valus
+
+  `.attr()`
+    - get/set specified attribute and its value ex. `$('li#one').attr('id');`
+  
+  `.removeAttr()`
+    - removes specified attributes. `$('li#one').removeAttr('id');`
+    
+  `.addClass()` and `.removeClass()`
+    - adds/removes value to existing value of the class attribute.
+    
+### Getting and Setting CSS Properties
+
+  `.css()` method lets you retrieve and set the values of CSS properties.
+  
+  1. To get a CSS property of an element
+    - `var = backgroundColor = $('li').css('background-color');`
+  
+  2. To set a CSS property, pass in a secon argument.
+    - `$('li').css('background-color', 'blue');`
+    
+### Working with each element in a selection
+
+jQuery uses `.each()` method to loop through a selection of elements.
+
+
+    
+    
 
