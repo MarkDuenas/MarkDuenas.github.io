@@ -48,6 +48,10 @@
 
 [EJS](./ejs.md)
 
+### Read 12
+
+[EJS Partials](./ejspartials.md)
+
 
 
 
