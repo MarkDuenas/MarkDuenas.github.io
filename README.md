@@ -50,7 +50,7 @@
 
 ### Read 12
 
-[EJS Partials](./ejspartials.md)
+[EJS Partials](./ejspartial.md)
 
 
 
