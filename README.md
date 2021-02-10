@@ -36,6 +36,10 @@
 
 [SQL](./sql.md)
 
+### Read 09
+
+[Functional Programming](./funcProg.md)
+
 
 
 
