@@ -70,3 +70,7 @@
 ### Read 03
 
 [Express REST API](./expressRESTAPI.md)
+
+### Read 04
+
+[Data Modeling](./data-modeling.md)
