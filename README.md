@@ -74,3 +74,7 @@
 ### Read 04
 
 [Data Modeling](./data-modeling.md)
+
+## Read 05
+
+[Linked List](./linked-list.md)
