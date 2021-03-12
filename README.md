@@ -78,3 +78,7 @@
 ## Read 05
 
 [Linked List](./linked-list.md)
+
+## Read 06
+
+[Authentication](./authentication.md)
