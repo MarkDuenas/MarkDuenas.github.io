@@ -82,3 +82,7 @@
 ## Read 06
 
 [Authentication](./authentication.md)
+
+## Read 07
+
+[Bearer Authorization](./bearer-auth.md)
