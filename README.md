@@ -86,3 +86,7 @@
 ## Read 07
 
 [Bearer Authorization](./bearer-auth.md)
+
+## Read 08
+
+[ACL](./access-control-list.md)
