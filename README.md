@@ -106,3 +106,7 @@
 ## Read 13
 
 [Message Queue](./message-queue.md)
+
+## Read 14
+
+[Event Driven Architecture](./event-driven-arch.md)
