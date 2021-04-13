@@ -110,3 +110,7 @@
 ## Read 14
 
 [Event Driven Architecture](./event-driven-arch.md)
+
+## Read 15
+
+[Binary Trees](./binary-tree.md)
