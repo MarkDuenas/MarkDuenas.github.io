@@ -121,4 +121,4 @@
 
 ## Read 16
 
-[AWS](./aws-s3-lambda.md)
+[AWS: S3 and Lambda](./aws-s3-lambda.md)
