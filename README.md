@@ -126,3 +126,7 @@
 ## Read 18
 
 [AWS: API, Dynamo, Lambda](./api-dynamo-lambda.md)
+
+## Read 19
+
+[AWS: Events](./aws-events.md)
