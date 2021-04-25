@@ -122,3 +122,7 @@
 ## Read 17
 
 [AWS: S3 and Lambda](./aws-s3-lambda.md)
+
+## Read 18
+
+[AWS: API, Dynamo, Lambda](./api-dynamo-lambda.md)
