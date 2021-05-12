@@ -130,3 +130,7 @@
 ## Read 19
 
 [AWS: Events](./aws-events.md)
+
+## Read 26
+
+[Component Based UI](./component-based-ui.md)
