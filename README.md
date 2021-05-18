@@ -137,4 +137,4 @@
 
 ## Read 267
 
-[Component Based UI](./state-and-props.md)
+[Props and State](./props-and-state.md)
