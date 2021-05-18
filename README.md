@@ -134,3 +134,7 @@
 ## Read 26
 
 [Component Based UI](./component-based-ui.md)
+
+## Read 267
+
+[Component Based UI](./state-and-props.md)
