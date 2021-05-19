@@ -141,4 +141,4 @@
 
 ## Read 28
 
-[Props and State](./component-composistion.md)
+[Component Composition](./component-composition.md)
