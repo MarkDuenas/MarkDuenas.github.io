@@ -153,4 +153,4 @@
 
 ## Read 31
 
-[Hash Table](./react-hooks-api.md)
+[React Hooks API](./react-hooks-api.md)
