@@ -146,3 +146,7 @@
 ## Read 29
 
 [React Routing](./react-routing.md)
+
+## Read 30
+
+[Hash Table](./hash-table.md)
