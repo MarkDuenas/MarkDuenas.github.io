@@ -150,3 +150,7 @@
 ## Read 30
 
 [Hash Table](./hash-table.md)
+
+## Read 31
+
+[Hash Table](./react-hooks-api.md)
