@@ -145,4 +145,4 @@
 
 ## Read 29
 
-[Component Composition](./react-routing.md)
+[React Routing](./react-routing.md)
