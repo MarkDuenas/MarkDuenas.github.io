@@ -154,3 +154,7 @@
 ## Read 31
 
 [React Hooks API](./react-hooks-api.md)
+
+## Read 32
+
+[Custom Hooks](./custom-hooks.md)
