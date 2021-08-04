@@ -167,3 +167,7 @@
 ## Read 34
 
 [React Login and Auth](./react-login-auth.md)
+
+## Read 36
+
+[Redux](./redux.md)
